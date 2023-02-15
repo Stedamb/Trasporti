@@ -5,9 +5,10 @@ body {
 }
 
 .logo { 
-    width: 100%;
+    width: 80%;
     /* padding-left: 10%;
     padding-right: 30px; */
+    padding: 30px;
 }
 
 .navbar-custom { 
@@ -22,7 +23,7 @@ body {
 
 @media screen and (min-width: 992px) {
     i { 
-        font-size: 50pt;
+        font-size: 40pt;
         margin-right: 80px;
     }
 }
@@ -34,6 +35,11 @@ body {
 
     i { 
         font-size: 30pt;
+    }
+
+    .logo { 
+        width: 100%;
+        padding: 0px;
     }
 }
 
