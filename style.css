@@ -1,7 +1,7 @@
 body { 
     margin: 0px;
     padding: 0px;
-    font-family: "Helvetica";
+    font-family: "Poppins", sans-serif;
 }
 
 .logo { 
@@ -38,7 +38,7 @@ body {
     }
 
     .logo { 
-        width: 100%;
+        width: 80%;
         padding: 0px;
     }
 }
@@ -53,17 +53,28 @@ body {
     }
 }
 
-.img1{
-    background-image: url(./img2.jpg);
+.img{
+    background-image: url(./img3.jpg);
     height: 700px;
     background-size: cover;
     display: flex;
     align-items: center;
 }
 
-.text1 {
-    padding: 5%;
+.img > div {
+    backdrop-filter: blur(2px);
+    padding: 10%;
+    padding-top: 200px;
+    font-size: 24pt;
+    height: 100%;
 }
+
+.footer { 
+    /* background-color: black;
+    color: white; */
+    text-align: center;
+}
+
 
 /* .carousel-item > img {
     height: 75vh;
@@ -75,9 +86,3 @@ body {
     background-size: cover;
     object-fit: cover;
 } */
-
-.footer { 
-    /* background-color: black;
-    color: white; */
-    text-align: center;
-}
